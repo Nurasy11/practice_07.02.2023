@@ -29,14 +29,14 @@ const adv = document.querySelectorAll('.promo__adv'),
     genre = poster.querySelector('.promo__genre'),
     movie = document.querySelector('.promo__interactive-list');
 
-// console.log(adv);
-// adv.forEach(function (item) {
-//     item.remove();
+console.log(adv);
+adv.forEach(function (item) {
+    item.remove();
 
-// });
-// // adv.forEach(item => {
-// //     item.remove();
-// // })
+});
+// adv.forEach(item => {
+//     item.remove();
+// })
 
 // poster.style.backgroundImage = "url('img/bg.jpg')";
 // genre.textContent = 'Драма';
