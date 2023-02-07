@@ -39,7 +39,7 @@ adv.forEach(function (item) {
 // })
 
 poster.style.backgroundImage = "url('img/bg.jpg')";
-// genre.textContent = 'Драма';
+genre.textContent = 'Драма';
 
 // movie.innerHTML = "";
 // movieDB.movies.sort();
