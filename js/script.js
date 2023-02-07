@@ -41,17 +41,17 @@ adv.forEach(function (item) {
 poster.style.backgroundImage = "url('img/bg.jpg')";
 genre.textContent = 'Драма';
 
-// movie.innerHTML = "";
-// movieDB.movies.sort();
+movie.innerHTML = "";
+movieDB.movies.sort();
 
 
-// movieDB.movies.forEach((film, i) => {
-//     movie.innerHTML += `
-//     <li class="promo__interactive-item">${i + 1} ${film}
-//         <div class="delete"></div>
-//     </li>
-//     `
-// });
+movieDB.movies.forEach((film, i) => {
+    movie.innerHTML += `
+    <li class="promo__interactive-item">${i + 1} ${film}
+        <div class="delete"></div>
+    </li>
+    `
+});
 
 
 
